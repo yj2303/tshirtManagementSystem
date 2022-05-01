@@ -20,9 +20,9 @@ public class assign {
 
         DataController tc=new DataController();
 
-        tc.searchData("src/Adidas.csv",colour,size,gender);
-        tc.searchData("src/Nike.csv",colour,size,gender);
-        tc.searchData("src/Puma.csv",colour,size,gender);
+        tc.searchData("Adidas.csv",colour,size,gender);
+        tc.searchData("Nike.csv",colour,size,gender);
+        tc.searchData("Puma.csv",colour,size,gender);
         tc.updateView(choiceCode);
     }
 }
